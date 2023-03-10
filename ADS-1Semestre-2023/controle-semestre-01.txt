@@ -1,0 +1,169 @@
+===========================================================================================================================================
+=================[CRONOGRAMA/AGENDA AULAS 1º SEMESTRE CEUNSP - Análise e Desenvolvimento de Sistemas ] ====================================
+
+--------------------------------------------> INÍCIO 1ºSEMESTRE: 27/02/2023 FINAL:  <------------------------------------------------------
+===========================================================================================================================================
+===================================================[DISCIPLINAS 1º SEMESTRE]===============================================================
+
+link: https://slt.ifsp.edu.br/images/Estrutura_curricular_-_T%C3%A9cnico_em_Inform%C3%A1tica.pdf
+
+- Tutorial disciplina online: https://learn-us-east-1-prod-fleet02-xythos.content.blackboardcdn.com/5d152e0e8981d/52409319?X-Blackboard-S3-Bucket=learn-us-east-1-prod-fleet01-xythos&X-Blackboard-Expiration=1676430000000&X-Blackboard-Signature=IFq35rVr9JnzyaVkH5u%2FsX7r4pVPXaSuUkAaZolXOuU%3D&X-Blackboard-Client-Id=152625&X-Blackboard-S3-Region=us-east-1&response-cache-control=private%2C%20max-age%3D21600&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27GUIA_DOLS_20212.pdf&response-content-type=application%2Fpdf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIGSRYTPd4QbKQuZYu4JPw5p7o0K03mxqbvU%2BoiTnYT1%2BAiEAtEF4LWRevGuub1j89jF%2BAxJ2x1I3BAHLmtk4gbIby9kqzAQIHhACGgw2MzU1Njc5MjQxODMiDMgpTMli4vdlb8CkWiqpBMWaK7J4WXlBd9lwvtexw2Yx1EP706DZr3BO2QWACzVUpe9m2S5ESx%2F6NP0KqfoTGyxCMtj4YMIZd2U5eD%2FBFz9vlTxyuKPmwP1n0n9CfsxDw%2B6nQpiwSjC1AdIUtdjlBxieo%2FQpc8m5ALR5g5sCPPrFjFnqMNh5r6NZ9Lbd%2FdONqeNVV50hvUQUEl7NTIo%2Fvewf7g5xgjQCL9asFXS6pWczONGjJ7P1vR5j%2FVeW8JPdObysLqN7WEkL8jD8OMQSVWT6%2BvMe61f9HcmATwpUBr8UrpafmVd4GKgHumt8mtCo4N2CEiZ2WIiW8lwnOCg5ici0oFiXICxBfqnXx5RyFXwG80hKwnF%2FYVo%2FpIyYN%2F0lNQLzaFjVHUCNCMr%2BfIURuhbr7J5wAu2lMu389vLgZXIKz2rWrWN6UX1CpNp2Nfr72LsQvKhYMDtu3TKhWJ5%2FJQw2pW686xnbLhc%2FsbtR9MlP%2BPPuSIKsC88TweR2YW7e2Z0NfID%2BnZQb%2FM91GP673GvFuCSbDOy3aSojXO9XKp00iYD9y9P01LU7xsEA3gdTlxjU0ApnwZqnvZxoaHs%2BzjdLRNnGy1FYsLb34Mn3bB9P853g0hhkeHFKjw2TVuXjDk193c5YhyU9hvHY%2FR7lCRz2h56LMUYj7rZzXUr6r9YoG95ammdFznMsYYT7YzRpoeMLrYUorXuU%2BOnQ2%2BfhZRuzhXTQ5d%2BCpAp%2FUnun%2BjtV6Jl%2BnHbGMiwwk%2B2vnwY6qQFUnpyaJ6F7JmMk9HubiFPrFfRxv1H0DhCVk0Ov%2BZnjjQcUB0ldERZP2VSBEGQk9aApsj0Rdy7HCm98Km8Dcj7nVAnW1EzV0fFxew2ZH1yLTviDxvKFC%2FgJhVHxdLg1SMoyrQR6SU%2Fywci4xkx9IbrkTvUDk%2BIEgcCCnwFNUGNElgk6%2FPSPNwUHJqRA7btZKhtQ7sVw%2FDqd3RVyKVzaQ%2Fd9f39c4j7y1gl0&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230214T210000Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIAZH6WM4PL7DZ5CBUA%2F20230214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d1c25c56541e19a5e7ce56ceef0420f43747a504932817d06e6ff2e5cfb817a7
+
+- portal: https://bb.cruzeirodosulvirtual.com.br/ultra/course
+- Documentos importantes para iniciantes recebido por email: https://drive.google.com/drive/folders/1R99TvhA6FIsamw6tlnTOfalq9CyvSf2f?usp=share_link
+
+- Sobre HC (Horas complementares):
+    Ciclo de envios: de 01/03/2023 a 20/06/2023;
+    Período de revisão de avaliação: de 02/05/2023 a 10/07/2023.
+    
+    Email de:
+    Prof. Me. Luís Roberto Momberg Albano
+    Coordenador dos cursos de Análise e Desenvolvimento de Sistemas e Ciência da Computação
+    luis.silva@ceunsp.edu.br
+
+- Nota Final:
+
+---------> Disciplinas Regulares, Dols e Disciplinas Guias:
+
+----> (DOL) Gestão Estratégica de Negócios - 80h_T2_23_1_CICLO. (EAD) prof. Fabiana Ilka de Queiroz prof_GERAL - SABADOS C/H Semestral: 80
+----> (DOL) Empreendedorismo - 80h_T8_23_1_CICLO_1. (EAD) prof. Fabiana Ilka de Queiroz prof_GERAL SABADOS - SABADOS C/H Semestral: 80
+----> (DOL) Sociedade, Identidades e Territorios 40h - EXT_23_1 prof. - Sem muitas informações e emails                           
+
+----> Organização e Arquitetura de Computadores - A_ (Not) _C-SALT_CEUNSP prof. Archimedes Ferrari Neto - Segundas-Feiras          
+----> Aplicações Para Internet - A_ (Not) _C-SALT_CEUNSP prof. Sidinei de Andrade - Quartas-Feiras 
+----> Modelagem de Negocios e Requisitos  - A_ (Not) _C-SALT_CEUNSP prof. Alvaro Augusto Pereira - Quintas-Feiras
+----> Programação de Computadores - A_ (Not) _C-SALT_CEUNSP prof. Não tem ainda - Sextas-Feiras
+
+----> (DOL-Guia) Ambientação - 20231 - Disciplina para ajudar Iniciantes a utilizar as plataformas - POSSUÌ ATIVIDADES!
+----> (DOL-Guia) Apoio às disciplinas online – 2023-1 – CEUNSP - Disciplina para ajudar Iniciantes a utilizar as plataformas - NÃO POSSUÌ ATIVIDADES!
+
+===========================================================================================================================================
+
+(ok)(OK)(Presencial)27/02/2023 19:00 ás 21:50 [Segunda-Feira ~ Primeira Aula] > (ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES) Prof: Archimedes Ferrari Neto ();
+- Portal: Presencial/Palestra (Bloco C, Sala 213C);
+- Assunto: Introdução e explicações sobre o CEUNSP;
+- Obs: Procurar Atividades complementares!
+===========================================================================================================================================
+
+(OK)28/02/2023 > TERÇA NÂO TEM AULA;
+
+===========================================================================================================================================
+
+(ok)(OK)(Presencial)01/03/2023 19:00 ás 21:50 [Quarta-Feira ~ Primeira Aula] > (APLICAÇÕES PARA INTERNET) Prof: Sidinei de Andrade (); 
+- Portal: Presencial/Palestra (Bloco C, Sala 213C);
+- Assunto: Introdução (Sumário), HTML5 Semântico (devido ao SEO), Estrutura básica (Doctype, head, meta, charset UTF-8, body);
+- Abordagens durante a aula: Frontend (HTML5 + CSS3 + Js) Basicão (sem muito CSS);
+- Obs: BlackBoard não está disponível ainda;
+- Cursos gratuítos e com certificado: Fundação Bradesco (https://www.ev.org.br/cursos);
+- DIO: Teste para emprego como dev;
+
+- Notas: (Primeira avaliação: A2 4.0 pontos, Lista de exercicios 1.0 ponto, Prova final: A1 5.0); 
+
+===========================================================================================================================================
+[Não é WEBAULA!]
+(ok)(OK)(DOL)01/03/2023 14:00 ás 17:00 e 02/03/2023 08:30 ás 11:35 Finaliza [Quarta-Feira ~ Ciclo 1 - Unidade I] > (Empreendedorismo) Prof: (); 
+- Portal: BlackBoard (Ciclo 1 - Unidade I);
+- Assunto: [01/03] Introdução ao Empreeendedorismo, Surgimento histórico (3 Eras) e suas abordagens, [02/03]: Definições, Caracteristicas e Habilidades Empreeendedoras FILLION, Caracteristicas Comportamentais Empreendedoras MCCLELLAND, e Tipos de Empreendedores;
+- Obs: Anotações no caderno.
+
+===========================================================================================================================================
+
+()(OK)(Presencial)02/03/2023 19:00 ás 21:50 [Quinta-Feira - Primeira Aula] > (MODELAGEM DE NEGOCIOS E REQUISITOS) Prof: Alvaro Augusto Pereira (@);
+- Portal: Presencial/Palestra (Bloco C, Sala 213C); Parece  que gerol horas complementares!! verificar.
+- Assunto: Apresentação do professor (frontender pleno), e Informações sobre cargas horarias de atividades optativas, complementares, temas transversais.  
+- Obs: -
+===========================================================================================================================================
+
+(ok)(OK)(Presencial)03/03/2023 19:00 ás 21:50 [Sexta-Feira - Primeira Aula] > (PROGRAMAÇÃO DE COMPUTADORES) Prof: Paulo Djalma (@);
+- Portal: Presencial/Laboratório (Bloco J, Sala J01);
+- Assunto: Introdução a materia, lógica de programação com pseudo códigos e fluxograma lógico de como dirigir um carro.
+- Obs: -
+===========================================================================================================================================
+
+()(DOL)--/--/---- 19:00 ás 21:50 [Sábado - Primeira Aula] > (SOCIEDADE, IDENTIDADES E TERRITÓRIOS) Prof: -  (@);
+- Portal: -
+- Assunto: -
+- Obs: -
+===========================================================================================================================================
+
+()(DOL-WEBAULA)04/03/2023 19:00 ás 21:50 [Sábado - Primeira Aula] > (EMPREENDEDORISMO) Prof: Fabiana Ilka de Queiroz prof_GERAL & Claudio Benossi (fabiana.queiroz@unipe.edu.br);
+- Portal: -
+- Assunto: -
+- Obs: -
+===========================================================================================================================================
+
+()(DOL-WEBAULA)04/03/2023 19:00 ás 21:50 [Sábado - Primeira Aula] > (GESTÃO ESTRATÉGICA DE NEGÓCIOS) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+- Portal: -
+- Assunto: -
+- Obs: -
+=====================================================[Semana 02]===========================================================================
+
+(ok)(OK)(Presencial)06/03/2023 19:00 ás 21:50 [Segunda-Feira ~ Segunda Aula] > (ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES) Prof: Archimedes Ferrari Neto ();
+- Portal: Presencial/Aula (Bloco C, Sala 213C);
+- Assunto: Overview de todos os assuntos que seram abordados durante o semestre (mais informações de hardware doque software).
+- Aulas 100% Teóricas em sala de aula, logo as anotações estão no caderno.
+- Obs: -
+===========================================================================================================================================
+
+(OK)07/03/2023 > TERÇA NÂO TEM AULA;
+
+===========================================================================================================================================
+[ATIVIDADE AS - UNIDS I e II]
+(ok)(OK)(DOL-Unidades)07/03/2023 08:00 ás 12:00 [Terça-Feira - Ciclo 1 Unidade II] > (EMPREENDEDORISMO) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+- Portal: Plataforma Black Board.
+- Assunto: Anotações no caderno sobre a Aula, e também foi realizado as AS's das Unidades I e II;
+- Atividade AS da Unidade I: Acertei 3/4;
+- Atividade AS da Unidade II: Acertei 3/4;
+- Obs: Respostas estão no PDF.
+===========================================================================================================================================
+[ATIVIDADE AS - UNID I]
+(ok)(OK)(DOL-Unidades)07/03/2023 12:00 ás 18:00 [Terça-Feira - Ciclo 1 Unidade I] > (GESTÃO ESTRATÉGICA DE NEGÓCIOS) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+- Portal: Plataforma Black Board.
+- Assunto: Anotações no caderno sobre a Aula, e também foi realizado as AS's da Unidade I;
+- Atividade AS da Unidade I: Acertei 100%;
+- Obs: Respostas estão no PDF.
+===========================================================================================================================================
+
+(ok)(OK)(Presencial)08/03/2023 19:00 ás 21:50 [Quarta-Feira ~ Segunda Aula] > (APLICAÇÕES PARA INTERNET) Prof: Sidinei de Andrade (); 
+- Portal: Presencial/Palestra (Bloco J, Sala J05);
+- Assunto: Mais sobre tag meta, 
+- Obs: -
+
+- Lição de casa: 
+A - Criar uma página html com o titulo Exercicios 1, cor de fundo amarelo, cor de texto azul.
+B - Escreva a frase: "O utilitário REQUEST"
+C - Insira um paragrafo.
+D - Escreva: Retorna ao servidor informações do usuário.
+E - Faça o seguinte comentário no código: "Este é o 1o exercicio".
+F - Coloque uma imagem denominada teste.gif como fundo da página.
+===========================================================================================================================================
+
+()(OK)(Presencial)09/03/2023 19:00 ás 21:50 [Quinta-Feira - Segunda Aula] > (MODELAGEM DE NEGOCIOS E REQUISITOS) Prof: Alvaro Augusto Pereira (@);
+- Portal: Presencial/Palestra (Bloco C, Sala 213C);
+- Assunto: O que é e para que serve Modelagem de negócios, não serve apenas para software mas sim para o entendimento do negócio como um todo.
+- Obs: -
+===========================================================================================================================================
+
+(ok)(OK)(Presencial)10/03/2023 19:00 ás 21:50 [Sexta-Feira - Segunda Aula] > (PROGRAMAÇÃO DE COMPUTADORES) Prof: Paulo Djalma (@);
+- Portal: Presencial/Laboratório (Bloco J, Sala J01);
+- Assunto: -
+- Obs: -
+===========================================================================================================================================
+
+()(DOL)--/--/---- 19:00 ás 21:50 [Sábado - Primeira Aula] > (SOCIEDADE, IDENTIDADES E TERRITÓRIOS) Prof: -  (@);
+- Portal: -
+- Assunto: -
+- Obs: -
+===========================================================================================================================================
+
+()(DOL-WEBAULA)04/03/2023 19:00 ás 21:50 [Sábado - Primeira Aula] > (EMPREENDEDORISMO) Prof: Fabiana Ilka de Queiroz prof_GERAL & Claudio Benossi (fabiana.queiroz@unipe.edu.br);
+- Portal: -
+- Assunto: -
+- Obs: -
+===========================================================================================================================================
+
+()(DOL-WEBAULA)04/03/2023 19:00 ás 21:50 [Sábado - Primeira Aula] > (GESTÃO ESTRATÉGICA DE NEGÓCIOS) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+- Portal: -
+- Assunto: -
+- Obs: -
+===========================================================================================================================================

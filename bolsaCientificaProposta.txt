@@ -1,0 +1,84 @@
+
+
+* Proposta de projeto: 
+	- Simplificando e entendendo Estrutura de dados na prática (Java) com calculos de performance (Complexidade Big-O) para leigos.
+
+* Objetivo: 
+	Simplificar Estrutura de dados por meio da API nativa de Coleções do Java 
+	(Java Collections Framework), realizando calculos de performance com códigos 
+	reais em produção no mercado debugando e entendendo "de uma vez por todas" 
+	calculos de complexidade Big-O sem jargões técnicos, para assim criar modelos 
+	mentais da "Implementação em baixo nível", entendendo assim de uma vez por todas 
+	oque o computador não está exibindo no Output padrão de saída (console) 
+	mas está processando "por debaixo dos panos". 
+	 
+* Requisitos iniciais necessários para entendimento:
+	- Informática intermediária.
+	- Programação intermediária.
+	- POO intermediário.
+	- Saber oque é uma matriz/array nativo.
+	- Saber como é o fluxograma de execução de programas e iterações, 
+	pois é por meio delas que realizamos os calculos de complexidade Big-O.
+	- Saber ao menos para que serve as Interfaces.
+	- Programação orientado a interface básico.
+	- Entender sobre Herança e quais suas vantagens.
+	- Entender um pouco sobre Polimorfismo e quais suas vantagens.
+
+* Skills e técnicas aplicadas:
+	- Programação Orientada a objetos. (Java)
+	- Entendendo os tipos de estrutura de dados e suas devidas aplicações.
+	- Entendendo as diferenças entre eles e o propósito de cada um.
+	- Debugando e mostrando códigos de exemplos básicos.
+	- Entendendo programação orientada a interface aplicada nas coleções.
+	- Calculando a performance de cada tipo de coleção, 
+	com as mesmas entradas para assim entender as vantagens e desvantagens na prática.
+	- Calculos de complexidade Big-O simplificado.
+	- Entendendo sobre coesão na programação.
+	- Overview sobre as classes envolto das coleções e quais seus propósitos dentro da coesão.
+	- Dicas e macetes da IDE intelliJ utilizadas no dia-a-dia.
+	
+	- Tudo isso com a "Mão no código" sem muita teoria.
+	
+	- Bonus: Como extrair ao máximo da capacidade do chatGPT e porque utiliza-lo no dia-a-dia.
+
+* API/Framework Java Collections: 
+	É o pacote de utilitários para se trabalhar com coleções no Java,
+	ele simplifica muito a programação dispondo vários métodos prontos
+	para a manipulação de diversos tipos de listas/coleções de dados visando 
+	cada propósito em particular, com classes coesas entre sí facilitando 
+	assim o seu entendimento/leitura.
+	
+* Classes/Interfaces e métodos utilizados nativos do Java:
+	- equals() e hashCode(); -> Porque devemos implementar esses métodos definidos em Object;
+	- IList<T>; -> Programação orientada a interface e suas vantagens;
+	- IComparator<T> e Comparable<T> aplicadas ao sort(); -> Diferenças de uso e propósito de cada uma delas, + macete;
+	- Resumo: Em demonstrações vou realizar a atividade mais básica quando se trabalha com listas: ordened and sorted;
+	
+* Implementação manual dessas classes para prática e melhor entendimento:
+	- ArrayList<T>; -> mais básico simula o array nativo do java.
+	- Queue<T>; -> Filas e seus comportamentos.
+	- QueuWithPriority<T>; -> Filas com regras de prioridade para organizar os dados. 
+	                          (Essas regras podem ser aplicadas em outros tipos de listas também, utilizei em Filas apenas para
+	                           demonstração).
+	- Stack<T>; -> Pilhas e seus comportamentos.
+	
+	- Bonus: LinkedList<T>; -> Conceitos um pouco mais avançado, apenas para demonstrar as possíbilidades implementando na mão 
+	                           essas listas ligadas para entender o seu comportamento LowLevel.
+	                           
+===========================================================================================================================================
+Mensagem enviada por meio do "Contact me" do Ceunsp:
+
+Boa tarde, sou aluno calouro em ADS porém já possuo conhecimentos/nível de instrução técnico relacionados a programação e T.I pois sou formado em "técnico em informática" pelo IFSP. 
+
+Fiquei sabendo da bolsa por meio do coordenador do curso, mas parece que um dos requsitos para participação é estar cursando pelomenos o 2º Semestre.. então queria saber se existe alguma exceção e como contemplar ela. 
+
+Agradeço desde já e aguardo respostas ansiouser rsrs.. 
+
+Grato e Ótima semana! ^^
+
+
+
+
+
+ 
+	
