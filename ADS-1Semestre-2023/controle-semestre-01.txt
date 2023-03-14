@@ -139,20 +139,20 @@ F - Coloque uma imagem denominada teste.gif como fundo da página.
 ===========================================================================================================================================
 
 ()(OK)(Presencial)09/03/2023 19:00 ás 21:50 [Quinta-Feira - Segunda Aula] > (MODELAGEM DE NEGOCIOS E REQUISITOS) Prof: Alvaro Augusto Pereira (@);
-- Portal: Presencial/Palestra (Bloco C, Sala 213C);
+- Portal: Presencial/Teórico (Bloco C, Sala 213C);
 - Assunto: O que é e para que serve Modelagem de negócios, não serve apenas para software mas sim para o entendimento do negócio como um todo.
 - Obs: -
 ===========================================================================================================================================
 
 (ok)(OK)(Presencial)10/03/2023 19:00 ás 21:50 [Sexta-Feira - Segunda Aula] > (PROGRAMAÇÃO DE COMPUTADORES) Prof: Paulo Djalma (@);
-- Portal: Presencial/Laboratório (Bloco J, Sala J01);
+- Portal: Presencial/Laboratório&Prática (Bloco J, Sala J01);
 - Assunto: Introdução a linguagem C (Oque são variáveis, método main, float e saída console com printf);
 - Obs: PC's não compilaram pois faltava compilador e para configurar não foi possível por conta de permissões (aluno não pode);
 - Material em PDF no BlackBoard;
 =====================================================[Semana 03]===========================================================================
 
 (ok)(OK)(Presencial)13/03/2023 19:00 ás 21:50 [Segunda-Feira ~ Terceira Aula] > (ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES) Prof: Archimedes Ferrari Neto ();
-- Portal: Presencial/Aula (Bloco C, Sala 213C);
+- Portal: Presencial/Teórica (Bloco C, Sala 213C);
 - Assunto: 
 	- Passou componentes pela sala (HD novo e antigo, Memoria Ram e etc...);
 	- OverView geral: 
@@ -194,45 +194,37 @@ F - Coloque uma imagem denominada teste.gif como fundo da página.
 
 ===========================================================================================================================================
 [ATIVIDADE CICLO 1 AS - UNID's II e III]
-()()(DOL-Unidades)14/03/2023 11:25 ás 18:00 [Terça-Feira - Ciclo 1 Unidade II] > (GESTÃO ESTRATÉGICA DE NEGÓCIOS) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+(ok)(OK)(DOL-Unidades)14/03/2023 11:25 ás 14:00 [Terça-Feira - Ciclo 1 Unidade II e III] > (GESTÃO ESTRATÉGICA DE NEGÓCIOS) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
 - Portal: Plataforma Black Board.
 - Assunto: Anotações no caderno sobre a Aula;
 - Atividade AS da Unidade II: Acertei 100%;
+- Atividade AS da Unidade III: Acertei 100%
 - Obs: Respostas estão no PDF.
 ===========================================================================================================================================
 
 [ATIVIDADE CICLO 1 AS - UNID III]
-()()(DOL-Unidades)14/03/2023 11:00 ás 12:00 [Terça-Feira - Ciclo 1 Unidade II] > (EMPREENDEDORISMO) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+(ok)(OK)(DOL-Unidades)14/03/2023 11:00 ás 12:00 [Terça-Feira - Ciclo 1 Unidade III] > (EMPREENDEDORISMO) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
 - Portal: Plataforma Black Board.
-- Assunto: Anotações no caderno sobre a Aula, e também foi realizado as AS's das Unidades I e II;
-- Atividade AS da Unidade III: Acertei -;
+- Assunto: Anotações no caderno sobre a Aula;
+- Atividade AS da Unidade III: Acertei 100%;
 - Obs: Respostas estão no PDF.
 ===========================================================================================================================================
 
-(ok)(OK)(Presencial)08/03/2023 19:00 ás 21:50 [Quarta-Feira ~ Segunda Aula] > (APLICAÇÕES PARA INTERNET) Prof: Sidinei de Andrade (); 
-- Portal: Presencial/Palestra (Bloco J, Sala J05);
-- Assunto: Mais sobre tag meta, 
-- Obs: -
-
-- Lição de casa: 
-A - Criar uma página html com o titulo Exercicios 1, cor de fundo amarelo, cor de texto azul.
-B - Escreva a frase: "O utilitário REQUEST"
-C - Insira um paragrafo.
-D - Escreva: Retorna ao servidor informações do usuário.
-E - Faça o seguinte comentário no código: "Este é o 1o exercicio".
-F - Coloque uma imagem denominada teste.gif como fundo da página.
-===========================================================================================================================================
-
-()(OK)(Presencial)09/03/2023 19:00 ás 21:50 [Quinta-Feira - Segunda Aula] > (MODELAGEM DE NEGOCIOS E REQUISITOS) Prof: Alvaro Augusto Pereira (@);
-- Portal: Presencial/Palestra (Bloco C, Sala 213C);
-- Assunto: O que é e para que serve Modelagem de negócios, não serve apenas para software mas sim para o entendimento do negócio como um todo.
+()()(Presencial)15/03/2023 19:00 ás 21:50 [Quarta-Feira ~ Terceira Aula] > (APLICAÇÕES PARA INTERNET) Prof: Sidinei de Andrade (); 
+- Portal: Presencial/Prática (Bloco J, Sala J05);
+- Assunto: - 
 - Obs: -
 ===========================================================================================================================================
 
-(ok)(OK)(Presencial)10/03/2023 19:00 ás 21:50 [Sexta-Feira - Segunda Aula] > (PROGRAMAÇÃO DE COMPUTADORES) Prof: Paulo Djalma (@);
-- Portal: Presencial/Laboratório (Bloco J, Sala J01);
-- Assunto: Introdução a linguagem C (Oque são variáveis, método main, float e saída console com printf);
-- Obs: PC's não compilaram pois faltava compilador e para configurar não foi possível por conta de permissões (aluno não pode);
-- Material em PDF no BlackBoard;
+()()(Presencial)16/03/2023 19:00 ás 21:50 [Quinta-Feira - Terceira Aula] > (MODELAGEM DE NEGOCIOS E REQUISITOS) Prof: Alvaro Augusto Pereira (@);
+- Portal: Presencial/Teórico (Bloco C, Sala 213C);
+- Assunto: -
+- Obs: -
+===========================================================================================================================================
+
+()()(Presencial)17/03/2023 19:00 ás 21:50 [Sexta-Feira - Terceira Aula] > (PROGRAMAÇÃO DE COMPUTADORES) Prof: Paulo Djalma (@);
+- Portal: Presencial/Laboratório&Prática (Bloco J, Sala J01);
+- Assunto: -
+- Obs: -
 
 
