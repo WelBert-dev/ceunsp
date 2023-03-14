@@ -146,24 +146,93 @@ F - Coloque uma imagem denominada teste.gif como fundo da página.
 
 (ok)(OK)(Presencial)10/03/2023 19:00 ás 21:50 [Sexta-Feira - Segunda Aula] > (PROGRAMAÇÃO DE COMPUTADORES) Prof: Paulo Djalma (@);
 - Portal: Presencial/Laboratório (Bloco J, Sala J01);
-- Assunto: -
+- Assunto: Introdução a linguagem C (Oque são variáveis, método main, float e saída console com printf);
+- Obs: PC's não compilaram pois faltava compilador e para configurar não foi possível por conta de permissões (aluno não pode);
+- Material em PDF no BlackBoard;
+=====================================================[Semana 03]===========================================================================
+
+(ok)(OK)(Presencial)13/03/2023 19:00 ás 21:50 [Segunda-Feira ~ Terceira Aula] > (ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES) Prof: Archimedes Ferrari Neto ();
+- Portal: Presencial/Aula (Bloco C, Sala 213C);
+- Assunto: 
+	- Passou componentes pela sala (HD novo e antigo, Memoria Ram e etc...);
+	- OverView geral: 
+		- Evolução do HD mecânico para o eletrônico (Ganho de performance);
+		- Evolução na capacidade de armazenamento (HD antigo pesado armazenava até 10MB e hj temos HD's que vão até 4TB);
+	  	- Para saber a ficha técnica ir na BIOS;
+	  	- Diferenças entre placa mãe OnBoard e OffBoard;
+	  		- OnBoard: Todos componentes são soldados diretamente na placa, mais performance devido a isso;
+	  		- OffBoard: Slots para plugar os componentes, mais facil manutenção e troca de peças;
+	  	- Descarregar energia estática ao manipular componentes;
+	  	- Motivos do porque fita magnética é lenta (Acesso sequencial), CD (Acesso direto);
+	  	- BackUps longes fisicamente um do outro devido a possiveis catastrofes naturais (11 de setembro como exemplo);
+	  	- GPS Antigo (Hoje ele é integrado no celular) desuso;
+	  	- Motivos do porque era preciso atualizar sempre o driver do GPS (lugares mudavam e não atualizava no GPS);
+	  	- GPS esta obsoleto devido a apps como Waze e Google Maps;
+	  	- Jogo de cartucho Atari (Antigamente o jogo não era carregado em memória RAM pois o próprio cartucho é a memória);
+	  	- Celular antigo (Não era smartphone pois não possuia acesso a internet);
+	  	- Primeiro celular SmartPhone foi o BlackBerry;
+	  	- Token de segurança antigo era um dispositivo parecido com pendrive utilizado para acessar o banco online;
+	  	- FlexCable era utilizado para conectar os periféricos da placa mãe, dubstituidos por SATA;
+	  	- Substituidos pois com FlexCable esquentava muito internamente, ao substituir por SATA resolveu o problema;
+	
+	- Assunto principal: Ênfase maior ao Sistema Operacional:
+		- Tarefas do Sistema Operacional: Interação entre Humano x Máquina (Usuário -> SO -> Hardware);
+		- Gerencia outros programas e utilitários;
+		- Administra recursos de hardware internamente e externamente;
+		- Sistemas Operacionais para tarefas diferentes: Arquiteturas diferentes (Celular(Android), Notebook, Micro controladores);
+			- Sistemas Operacionais para Servidor: Não só administra recursos do seu Hospedeiro como também
+			outros hosts conectados á ele (servidores filho);
+		
+		- MS DOS, Netware(Para servidor), Unix, GNU/Linux, Windows(Server), Windows(DeskTop);
+		  
+	
+- Aulas 100% Teóricas em sala de aula, logo as anotações estão no caderno.
 - Obs: -
 ===========================================================================================================================================
 
-()(DOL)--/--/---- 19:00 ás 21:50 [Sábado - Primeira Aula] > (SOCIEDADE, IDENTIDADES E TERRITÓRIOS) Prof: -  (@);
-- Portal: -
-- Assunto: -
+(OK)14/03/2023 > TERÇA NÂO TEM AULA;
+
+===========================================================================================================================================
+[ATIVIDADE CICLO 1 AS - UNID's II e III]
+()()(DOL-Unidades)14/03/2023 11:25 ás 18:00 [Terça-Feira - Ciclo 1 Unidade II] > (GESTÃO ESTRATÉGICA DE NEGÓCIOS) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+- Portal: Plataforma Black Board.
+- Assunto: Anotações no caderno sobre a Aula;
+- Atividade AS da Unidade II: Acertei 100%;
+- Obs: Respostas estão no PDF.
+===========================================================================================================================================
+
+[ATIVIDADE CICLO 1 AS - UNID III]
+()()(DOL-Unidades)14/03/2023 11:00 ás 12:00 [Terça-Feira - Ciclo 1 Unidade II] > (EMPREENDEDORISMO) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
+- Portal: Plataforma Black Board.
+- Assunto: Anotações no caderno sobre a Aula, e também foi realizado as AS's das Unidades I e II;
+- Atividade AS da Unidade III: Acertei -;
+- Obs: Respostas estão no PDF.
+===========================================================================================================================================
+
+(ok)(OK)(Presencial)08/03/2023 19:00 ás 21:50 [Quarta-Feira ~ Segunda Aula] > (APLICAÇÕES PARA INTERNET) Prof: Sidinei de Andrade (); 
+- Portal: Presencial/Palestra (Bloco J, Sala J05);
+- Assunto: Mais sobre tag meta, 
+- Obs: -
+
+- Lição de casa: 
+A - Criar uma página html com o titulo Exercicios 1, cor de fundo amarelo, cor de texto azul.
+B - Escreva a frase: "O utilitário REQUEST"
+C - Insira um paragrafo.
+D - Escreva: Retorna ao servidor informações do usuário.
+E - Faça o seguinte comentário no código: "Este é o 1o exercicio".
+F - Coloque uma imagem denominada teste.gif como fundo da página.
+===========================================================================================================================================
+
+()(OK)(Presencial)09/03/2023 19:00 ás 21:50 [Quinta-Feira - Segunda Aula] > (MODELAGEM DE NEGOCIOS E REQUISITOS) Prof: Alvaro Augusto Pereira (@);
+- Portal: Presencial/Palestra (Bloco C, Sala 213C);
+- Assunto: O que é e para que serve Modelagem de negócios, não serve apenas para software mas sim para o entendimento do negócio como um todo.
 - Obs: -
 ===========================================================================================================================================
 
-()(DOL-WEBAULA)04/03/2023 19:00 ás 21:50 [Sábado - Primeira Aula] > (EMPREENDEDORISMO) Prof: Fabiana Ilka de Queiroz prof_GERAL & Claudio Benossi (fabiana.queiroz@unipe.edu.br);
-- Portal: -
-- Assunto: -
-- Obs: -
-===========================================================================================================================================
+(ok)(OK)(Presencial)10/03/2023 19:00 ás 21:50 [Sexta-Feira - Segunda Aula] > (PROGRAMAÇÃO DE COMPUTADORES) Prof: Paulo Djalma (@);
+- Portal: Presencial/Laboratório (Bloco J, Sala J01);
+- Assunto: Introdução a linguagem C (Oque são variáveis, método main, float e saída console com printf);
+- Obs: PC's não compilaram pois faltava compilador e para configurar não foi possível por conta de permissões (aluno não pode);
+- Material em PDF no BlackBoard;
 
-()(DOL-WEBAULA)04/03/2023 19:00 ás 21:50 [Sábado - Primeira Aula] > (GESTÃO ESTRATÉGICA DE NEGÓCIOS) Prof: Fabiana Ilka de Queiroz prof_GERAL & Giovani de Arruda Campos (fabiana.queiroz@unipe.edu.br);
-- Portal: -
-- Assunto: -
-- Obs: -
-===========================================================================================================================================
+
