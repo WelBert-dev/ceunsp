@@ -210,10 +210,14 @@ F - Coloque uma imagem denominada teste.gif como fundo da página.
 - Obs: Respostas estão no PDF.
 ===========================================================================================================================================
 
-()()(Presencial)15/03/2023 19:00 ás 21:50 [Quarta-Feira ~ Terceira Aula] > (APLICAÇÕES PARA INTERNET) Prof: Sidinei de Andrade (); 
+(PENDENTE)(OK)(Presencial)15/03/2023 19:00 ás 21:50 [Quarta-Feira ~ Terceira Aula] > (APLICAÇÕES PARA INTERNET) Prof: Sidinei de Andrade (); 
 - Portal: Presencial/Prática (Bloco J, Sala J05);
-- Assunto: - 
-- Obs: -
+- Assunto: 
+	- Listas Ordenadas (ol), Listas não ordenadas (ul) e seus elementos <li>;
+	- CSS descente, list-style-type, start (indica qual vai ser o inicio);
+	- Tabelas (table) table, tbody, thead, tr (linha), th(cabeçalho), td(célula);
+	- border, border-colapse, background-color, width e height, text-align;
+- Obs: Exercicios pendentes, NÃO vale nota;
 ===========================================================================================================================================
 
 ()()(Presencial)16/03/2023 19:00 ás 21:50 [Quinta-Feira - Terceira Aula] > (MODELAGEM DE NEGOCIOS E REQUISITOS) Prof: Alvaro Augusto Pereira (@);
