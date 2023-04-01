@@ -76,6 +76,16 @@ int main (int args, char *argv[]) {
     // Assim, o tag %8.3f significa: “exibir um valor de ponto
     // flutuante com oito caracteres no total e com três casas decimais”.
 
+    // %p é ponteiro ou seja o endereço de memória
+    int valEmMemoria = 10;
+    printf("Valor: %d | Endereço em memória: %p", valEmMemoria, &valEmMemoria);
+
+    // Tipo de variável que armazena ponteiro:
+    int ponteiro = &valEmMemoria;
+
+    // Definindo uma variável do tipo pointer:
+    int *ponteiroDefinition;
+
     system("PAUSE");
 
     return 0;
