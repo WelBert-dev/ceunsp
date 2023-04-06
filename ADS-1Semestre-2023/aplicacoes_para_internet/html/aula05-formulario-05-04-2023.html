@@ -1,0 +1,72 @@
+<!DOCTYPE html >
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="jose" />
+    <meta name="keywords" content="HTML5, CSS3, Semântica" />
+    <meta name="description" content="Programação html, conceitos básico.">
+
+	<title>HTML - Formulário 01</title> 
+    <style>
+        
+    </style>
+</head> 
+<body>
+	<form name="cadastro">
+		<label>Nome:</label>
+		<input type="text" style="width:250px" placeholder="Digite seu nome"/> <br><br>
+
+		<label>Sobrenome:</label>
+		<input  type="text" placeholder="Digite seu Sobrenome" style="width:250px" required /> <br><br>
+		
+        <label>Senha: </label>
+	    <input  type="password" placeholder="Digite a senha" style="width:250px" />  <br><br>
+
+		<label>Idade </label>
+	    <input type="number" min="1"  max="65"/><br><br>
+        
+        <label>Data de nascimento:</label><br>
+	    <input type="datetime-local"/><br><br>
+	
+        <label> Qual linguagem de programação você conhece ?  </label> <br>
+        <input type="checkbox" name="asp" value="asp"> C# ASP Net <br>
+        <input type="checkbox" name="php" value="php"> PHP <br>
+        <input type="checkbox" name="java" value="java"> Java <br>
+
+        <label for="status">Status: </label> <br>
+        <input type="radio" name="status" value="solteiro"> Solteiro <br>
+        <input type="radio" name="status" value="casado"> Casado <br>
+
+        <label for="status">Sexo: </label> <br>
+        <input type="radio" name="status" value="M"> Masculino <br>
+        <input type="radio" name="status" value="F"> Feminino <br>
+
+        <label>Selecione sua cidade:</label> <br>
+        <select name="cidade" id="cidade">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="MT">Mato Grosso</option>
+        </select> <br><br>
+
+        <label>Selecione seu Pais:</label> <br>
+        <input list="paises"/>
+            <datalist id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Espanha">Espanha</option>
+            </datalist><br><br>
+        
+        <label>Digite um comentário:</label><br>
+        <textarea rows="8" cols="30"></textarea> <br><br>
+
+        <label>Escolha uma cor:</label><br>
+        <input type="color" /><br><br>
+
+		<br><br>		
+		<input type="submit" value="Enviar">		
+        <input type="reset" value="Limpar Campos">		
+		</form>
+</body>
+</html>

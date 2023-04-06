@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Formulário de Login -->
+
+    <div id="form-login">
+        <form>
+            <h1>Formulário de Login</h1>
+        
+            <labal>Email: </labal><br>
+            <input type="text" name="email" placeholder="Irineu@hotmail.com" /><br><br>
+    
+            <label>Senha:</label><br>
+            <input type="password" name="senha"> <br><br>
+    
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Cancelar" />
+        </form>
+    </div>
+
+    <!-- Formulário de Login -->
+
+    <div id="form-dadosOfperson">
+        <h1>Formulário</h1>
+        <form>
+            <div class="dados-pessoais">
+
+                <label>Nome:</label>
+                <input type="text" name="name" /><br>
+    
+                <label>Endereço:</label>
+                <input type="text" name="endereco" /><br>
+                
+                <label>Cidade:</label>
+                <input type="text" name="cidade" /><br>
+                
+                <label>Estado:</label>
+                <select name="estado" id="estado">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="MT">Mato Grosso</option>
+                </select>
+
+            </div>
+            
+            <div class="dados-profissionais">
+                <label>Natureza do Cargo</label>
+                <input type="radio" name="setor" value="gerencia"/>Gerência
+                <input type="radio" name="setor" value="financeiro"/>Financeiro
+                <input type="radio" name="setor" value="gerencia"/>Recepção
+                <input type="radio" name="setor" value="gerencia"/>Administrativo
+                <input type="radio" name="setor" value="gerencia"/>Jurídico <br>
+                
+                <label>Área de interesse</label><br>
+                <input type="checkbox" name="area" value="computacao"/>Computação
+                <input type="checkbox" name="area" value="biologia"/>Biologia
+                <input type="checkbox" name="area" value="meioAmbiente"/>Meio Ambiente
+                <input type="checkbox" name="area" value="engenharia"/>Engenharia
+                <input type="checkbox" name="area" value="historia"/>História <br>
+                
+                <label>Mini-currículo:</label>
+                <textarea rows="6" cols="30"></textarea>
+            </div>
+            
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />		
+		</form>
+        </form>
+    </div>
+</body>
+</html>
