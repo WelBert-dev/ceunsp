@@ -1,0 +1,177 @@
+---> Número de jogadores e de cartas:
+
+- Utiliza-se um baralho, sendo que as cartas 8, 9 e 10 e curingas são excluídas. 
+- O jogo acontece com duas duplas ou dois trios.
+
+
+---> Glossário do Truco:
+
+- A Mão: Corresponde à jogada das três cartas. A mão tem três vazas.
+- O Mão: O jogador que deve jogar a primeira carta. O primeiro à direita de quem distribui as cartas.
+- O Pé: Aquele que deve jogar a última carta, o mesmo que distribui as cartas.
+- Vira: Carta que determina as manilhas ponto acima.
+- Manilha: Carta ponto acima da vira.
+- Raio: Fechamento de uma queda de 12 tentos.
+- Tento: Ponto.
+- Vaza: Uma de cada três partes de uma mão. Vence a vaza quem mostrar a maior carta.
+- Casal Maior: As duas maiores manilhas do jogo.
+
+
+---> Valores das mãos:
+
+- Paus/Zap/Gato: Manilha de maior valor, do naipe de paus.
+- Copas/Copeta/Copilha: Segunda manilha, do naipe de copas.
+- Espadas/Espadilha: Terceira manilha, de naipe de espadas.
+- Ouros/Pica-fumo/Mole: Quarta manilha do naipe de ouros.
+
+- As demais cartas, em ordem decrescente de valor são: 3, 2, Ás, reis, valetes, damas, 7, 6, 5 e 4.
+
+    ---> Array em PriorityQueue:
+
+        [primeiraManilha_naipePaus, 
+        segundaManilha_naipeCopas, 
+        terceiraManilha_naipeEspadas,
+        quartaManilha_naipeOuros,
+        3[naipePaus, naipeCopas, naipeEspadas, naipeOuros], 
+        2[naipePaus, naipeCopas, naipeEspadas, naipeOuros], 
+        A[naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        reis[K_naipePaus, K_naipeCopas, K_naipeEspadas, K_naipeOuros],
+        valetes[J_naipePaus, J_naipeCopas, J_naipeEspadas, J_naipeOuros],
+        damas[Q_naipePaus, Q_naipeCopas, Q_naipeEspadas, Q_naipeOuros],
+        7[naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        6[naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        5[naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        4[naipePaus, naipeCopas, naipeEspadas, naipeOuros]];
+
+
+---> Embaralhamento e distribuição:
+
+Um dos jogadores é escolhido para ser o primeiro a distribuir as cartas, três 
+para cada jogador e uma vira. As cartas podem ser dadas picadas ou três a três 
+com a primeira sendo do mão.
+
+É permitida a feitura do maço, assim como é permitido o desfiamento das cartas 
+nas mãos, sem a criação de montinhos na mesa. Dá-se o monte para o adversário à 
+esquerda cortar.
+
+
+Se o corte for seco ou não houver corte, o cortador poderá tirar cartas para o 
+seu parceiro ou para si, respeitando-se as normas gerais explicadas adiante. 
+O monte cortado volta então ao distribuidor.
+
+Mesmo que o cortador corte o maço a seco, bata o cotovelo ou embaralhe, o pé 
+dará cartas por cima ou por baixo, a seu critério. Porém, após deslizar a 
+primeira carta (por cima ou por baixo), não pode mais mudar de opinião.
+
+
+---> Desenrolar do jogo:
+
+O Truco é disputado em mãos. Cada mão vale inicialmente 1 ponto, e ganha o jogo
+a dupla ou trio que fizer 12 pontos. Para jogar uma mão, cada jogador recebe 
+três cartas.
+
+No final da distribuição das cartas, vira-se uma carta do baralho para cima 
+(a “vira”) e a carta seguinte em seus 4 diferentes naipes são as Manilhas. 
+A mão é dividida em 3 rodadas (ou vazas).
+
+Em cada rodada, cada jogador coloca uma de suas cartas na mesa, e o jogador 
+com a carta mais forte vence a rodada. Quem ganhar 2 dessas rodadas ganha a 
+mão e marca 1 ponto, e uma nova mão se inicia.
+
+
+A qualquer hora o jogador pode pedir Truco. É o grande momento do jogo. 
+O Truco é pedido para elevar a aposta a três tentos. Ao ser trucada, a dupla 
+adversária tem direito a três ações:
+
+    1. Mandar cair (a mão passa a valer três tentos);
+    2. Pedir 6 (a mão passa a valer seis tentos);
+    3. Fugir (a dupla que trucou leva um tento).
+
+
+Ao optar pela segunda opção, a dupla trucada passa à dupla que trucou três novas 
+ações:
+
+    1. Mandar cair (a mão passa a valer seis tentos);
+    2. Pedir 9 (a mão passa a valer nove tentos);
+    3. Fugir (a dupla que pediu 6 leva três tentos).
+
+
+Ao seguir a segunda opção, a dupla que pediu 9 passa à dupla que pediu 6 três 
+ações:
+
+    1. Mandar cair (a mão passa a valer nove tentos);
+    2. Pedir 12 (a mão passa a valer 12 tentos);
+    3. Fugir (a dupla que pediu 9 leva seis tentos).
+
+
+Finalmente, pela segunda ação, a dupla que pediu 12 deixa à dupla que pediu 9 
+duas ações:
+
+    1. Mandar cair (a mão vale o Raio);
+    2. Fugir (a dupla que pediu 12 leva nove tentos).
+
+
+---> Mão de 11:
+
+A Mão de 11 é aquela na qual uma dupla ou trio atinge 11 pontos. Na Mão de 11 
+para uma só equipe, é permitido olhar as cartas do parceiro. Caso a dupla 
+resolva jogar, a mão valerá três tentos. Caso resolva fugir, os adversários 
+ganham um tento.
+
+Quem trucar em Mão de 11 perderá três tentos. O empate em Mão de 11 beneficiará 
+os adversários com três tentos.
+
+Com cartas a provar vitória garantida em Mão de 11 (ex.: Casal Maior), o 
+desenvolvimento da jogada se torna desnecessário, bastando tão somente que essas 
+cartas sejam mostradas.
+
+
+---> Empate em Mão de 11 (Mão de Ferro/Escuro):
+
+Não é permitido fazer maço. As cartas devem ser dadas de três em três ou de uma 
+em uma sem pingar, no sentido anti-horário, com a vira na última carta.
+
+Havendo empate, ninguém ganha tentos, passando o maço para frente. Há ainda uma 
+variação jogada neste caso, em que nenhum jogador pode ver suas cartas. Deve-se 
+jogar as cartas na sorte.
+
+
+---> Decisões:
+
+Na Mão de 11 ou durante uma trucada, a decisão de jogar ou desistir prevalecerá 
+sobre um só parceiro, valendo então a primeira iniciativa.
+
+
+---> Conversas:
+
+A competição deve se desenvolver por meio de sinais ou gestos. Nenhuma palavra, 
+sob forma de orientação, poderá ser dita durante a jogada, incorrendo aquele que 
+assim proceder, na perda do tento em jogo.
+
+O palavreado “Jorge”, “Truca” entre outros, é considerado como três tentos em 
+disputa.
+
+
+---> Empates nas vazas:
+
+Havendo empate na primeira vaza, ninguém é obrigado a mostrar sua carta maior na 
+segunda, mesmo com trucada, podendo a mão terminar na terceira vaza, valendo, 
+pois, essa carta maior na jogada.
+
+Em caso de empate nas três vazas sem trucada, ninguém ganha tento, passando-se 
+o maço para a frente. Em caso de empate nas três vazas com trucada, o adversário 
+ganha 3 tentos.
+
+- Observe-se ainda:
+
+- Quem truca ou retruca em Carta Exposta, perde em caso de empate;
+- Quem truca ou retruca no Escuro, joga pelo empate;
+
+Deve-se observar o limite dos tentos. Ex.: Quem tem nove tentos não pode retrucar 
+com seis (somente no caso de empate).
+
+
+---> Vence quem:
+
+O objetivo do jogo, se jogado em dupla ou trio, é atingir 24 pontos, divididos em 
+2 voltas de 12.
