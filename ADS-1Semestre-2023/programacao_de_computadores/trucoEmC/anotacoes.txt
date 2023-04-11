@@ -1,3 +1,7 @@
+---> Referências:
+
+- Em python: https://github.com/anthonyzutter/Truco-Jogo 
+
 ---> Resumo do Truco Paulista:
 
 - Jogadores: Pode ser jogado 1v1 ou 2v2.
