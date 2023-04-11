@@ -26,7 +26,7 @@
 
 - As demais cartas, em ordem decrescente de valor são: 3, 2, Ás, reis, valetes, damas, 7, 6, 5 e 4.
 
-    ---> Array em PriorityQueue:
+    ---> Array em PriorityQueue: Cartas com maior valor em ordem:
 
         [primeiraManilha_naipePaus, 
         segundaManilha_naipeCopas, 
@@ -42,6 +42,19 @@
         6[naipePaus, naipeCopas, naipeEspadas, naipeOuros],
         5[naipePaus, naipeCopas, naipeEspadas, naipeOuros],
         4[naipePaus, naipeCopas, naipeEspadas, naipeOuros]];
+
+    ---> Mapa das cartas: Map em Java:
+
+        {3, [naipePaus, naipeCopas, naipeEspadas, naipeOuros], 
+        2, [naipePaus, naipeCopas, naipeEspadas, naipeOuros], 
+        A, [naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        reis, [K_naipePaus, K_naipeCopas, K_naipeEspadas, K_naipeOuros],
+        valetes, [J_naipePaus, J_naipeCopas, J_naipeEspadas, J_naipeOuros],
+        damas, [Q_naipePaus, Q_naipeCopas, Q_naipeEspadas, Q_naipeOuros],
+        7, [naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        6, [naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        5, [naipePaus, naipeCopas, naipeEspadas, naipeOuros],
+        4, [naipePaus, naipeCopas, naipeEspadas, naipeOuros]};
 
 
 ---> Embaralhamento e distribuição:
