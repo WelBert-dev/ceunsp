@@ -4,7 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trabalho 01</title>
+
+    <style>
+
+        body {
+            background-color: white;
+
+            --main-color: black;
+            --second-color: white;
+        }
+
+        h1 {
+            color: var(--main-color);
+            text-align: center;
+        }
+        
+        input, select {
+            margin-bottom: 4px;
+            color: var(--main-color);
+        }
+
+        label {
+            color: var(--main-color);
+        }
+
+        fieldset {
+            padding: 1rem;
+            color: var(--main-color);
+        }
+
+        form {
+            border: 2px solid purple;
+            max-width: 50%;
+            margin: 0 auto;
+            border-radius: 5px;
+            padding: 0 1rem 1rem 1rem;
+            margin-bottom: 1rem;
+        }
+        fieldset {
+            min-width: 50%;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -12,15 +54,15 @@
 
     <div id="form-login">
         <form>
-            <h1>Formulário de Login</h1>
+            <h1>1-) Formulário de Login</h1>
         
-            <labal>Email: </labal><br>
+            <label>Email: </label><br>
             <input type="text" name="email" placeholder="Irineu@hotmail.com" /><br><br>
     
             <label>Senha:</label><br>
             <input type="password" name="senha"> <br><br>
     
-            <input type="submit" value="Enviar" />
+            <input type="submit" value="Efetuar Login" />
             <input type="reset" value="Cancelar" />
         </form>
     </div>
@@ -28,51 +70,97 @@
     <!-- Formulário de Login -->
 
     <div id="form-dadosOfperson">
-        <h1>Formulário</h1>
         <form>
+            <h1>2-) Formulário</h1>
             <div class="dados-pessoais">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
 
-                <label>Nome:</label>
-                <input type="text" name="name" /><br>
-    
-                <label>Endereço:</label>
-                <input type="text" name="endereco" /><br>
-                
-                <label>Cidade:</label>
-                <input type="text" name="cidade" /><br>
-                
-                <label>Estado:</label>
-                <select name="estado" id="estado">
-                    <option value="SP">São Paulo</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="MT">Mato Grosso</option>
-                </select>
-
+                    <label>Nome:</label>    
+                    <input type="text" name="name" /><br>
+        
+                    <label>Endereço:</label>
+                    <input type="text" name="endereco" /><br>
+                    
+                    <label>Cidade:</label>
+                    <input type="text" name="cidade" /><br>
+                    
+                    <label>Estado:</label>
+                    <select name="estado" id="estado">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="MT">Mato Grosso</option>
+                    </select>
+                </fieldset>
             </div>
-            
+            <br>
+
             <div class="dados-profissionais">
-                <label>Natureza do Cargo</label>
-                <input type="radio" name="setor" value="gerencia"/>Gerência
-                <input type="radio" name="setor" value="financeiro"/>Financeiro
-                <input type="radio" name="setor" value="gerencia"/>Recepção
-                <input type="radio" name="setor" value="gerencia"/>Administrativo
-                <input type="radio" name="setor" value="gerencia"/>Jurídico <br>
+                <fieldset>
+                    <legend>Dados profissionais</legend>
+
+                    <label>Natureza do Cargo</label><br>
+                    <input type="radio" name="setor" value="gerencia" checked/>Gerência
+                    <input type="radio" name="setor" value="financeiro"/>Financeiro
+                    <input type="radio" name="setor" value="gerencia"/>Recepção
+                    <input type="radio" name="setor" value="gerencia"/>Administrativo
+                    <input type="radio" name="setor" value="gerencia"/>Jurídico <br><br>
                 
-                <label>Área de interesse</label><br>
-                <input type="checkbox" name="area" value="computacao"/>Computação
-                <input type="checkbox" name="area" value="biologia"/>Biologia
-                <input type="checkbox" name="area" value="meioAmbiente"/>Meio Ambiente
-                <input type="checkbox" name="area" value="engenharia"/>Engenharia
-                <input type="checkbox" name="area" value="historia"/>História <br>
-                
-                <label>Mini-currículo:</label>
-                <textarea rows="6" cols="30"></textarea>
+                    <label>Área de interesse</label><br>
+                    <input type="checkbox" name="area" value="computacao"/>Computação
+                    <input type="checkbox" name="area" value="biologia"/>Biologia
+                    <input type="checkbox" name="area" value="meioAmbiente"/>Meio Ambiente
+                    <input type="checkbox" name="area" value="engenharia"/>Engenharia
+                    <input type="checkbox" name="area" value="historia"/>História <br><br>
+                    
+                    <label>Mini-currículo:</label>
+                    <textarea rows="6" cols="50"></textarea>
+                </fieldset>
             </div>
             
+            <br>
             <input type="submit" value="Enviar" />
             <input type="reset" value="Limpar" />		
 		</form>
+    </div>
+
+    <div id="form-dadosOfEmployee">
+        <form>
+            <h1>3-) Cadastro de Funcionário</h1>
+            <div class="dados-pessoais">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+
+                    <label>Nome:</label>    
+                    <input type="text" name="name" /><br>
+        
+                    <label>Sobrenome:</label>
+                    <input type="text" name="endereco" /><br>
+                    
+                    <label>Data de nascimento:</label>
+                    <input type="text" name="cidade" /><br>
+                </fieldset>
+            </div>
+            <br>
+            <div class="dados-profissionais">
+                <fieldset>
+                    <legend>Dados profissionais</legend>
+
+                    <label>Departamento:</label>
+                    <select name="departamento" id="departamento">
+                        <option value="RH">Recursos Humanos</option>
+                        <option value="ADM">Administrativo</option>
+                        <option value="TI">Tecnologia da Informação</option>
+                        <option value="OP">Operacional</option>
+                    </select>    
+                    <br> 
+                    <label>Código Funcionário:</label>   
+                    <input type="text" name="codigo" /><br>
+                </fieldset>
+            </div>
+
+            <input type="submit" value="Incluir Funcionário">
         </form>
     </div>
 </body>
