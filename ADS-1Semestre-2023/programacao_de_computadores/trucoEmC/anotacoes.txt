@@ -9,8 +9,8 @@
 - Número de cartas: 40 (Não possui 8, 9, 10).
 - Distribuição de cartas: Cada jogador recebe três cartas.
 - Objetivo: Fazer 12 pontos para ganhar.
-- Sequência das cartas mais fortes: 3, 2, A, K, J, Q, 7, 6, 5, 4.
-- Sequência dos naipes mais fortes: ♣Paus, ♥Copas, ♠Espadas, ♦Moles.
+- Sequência das cartas mais fortes: manilha, 3, 2, A, K, J, Q, 7, 6, 5, 4.
+- Sequência dos naipes mais fortes: ♣Paus, ♥Copas, ♠Espadas, ♦Moles/Ouro.
 
 
 ---> Definições:
@@ -61,10 +61,10 @@ para baixo, e deverão jogar assim. Quem vencer a mão, vence a partida
 
 ---> Valores das mãos:
 
-- Paus/Zap/Gato: Manilha de maior valor, do naipe de paus.
-- Copas/Copeta/Copilha: Segunda manilha, do naipe de copas.
-- Espadas/Espadilha: Terceira manilha, de naipe de espadas.
-- Ouros/Pica-fumo/Mole: Quarta manilha do naipe de ouros.
+- ♣Paus/Zap/Gato: Manilha de maior valor, do naipe de paus.
+- ♥Copas/Copeta/Copilha: Segunda manilha, do naipe de copas.
+- ♠Espadas/Espadilha: Terceira manilha, de naipe de espadas.
+- ♦Ouros/Pica-fumo/Mole: Quarta manilha do naipe de ouros.
 
 - As demais cartas, em ordem decrescente de valor são: 3, 2, Ás, reis, valetes, damas, 7, 6, 5 e 4.
 
