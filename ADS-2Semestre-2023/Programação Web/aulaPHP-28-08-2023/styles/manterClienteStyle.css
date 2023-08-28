@@ -1,0 +1,175 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 225, 255, 0.952);
+}
+
+header .titulo-principal{
+    text-align: center;
+}
+
+.telContato1, .telContato2 {
+    width: 40%;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.telContato1 input {
+    width: 100%;
+}
+.telContato2 input {
+ width: 100%;
+}
+
+.btn--row {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    top: 20px;
+    transform: translateX(-60px)
+}
+
+/*.main-btn {
+    border-radius: 15%;
+    color: #FFF;
+    box-shadow: 2.5px 2.5px 2.5px #000;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px ridge #fff;
+    text-shadow: 2.5px 2.5px 2.5px #000;
+} */
+
+.-mr2percent {
+    margin-right: 2% !important;
+}
+
+.btnRegistrar {
+
+}
+
+.btnAtualizar {
+
+}
+
+.btnDeletar {
+
+}
+
+.btnLimpar {
+
+}
+
+/* Modal Procurar */
+
+#modalProcurar {
+    width: 70% !important;
+    transform: translateX(19%) !important;
+}
+
+.modal-dialogProcurar {
+    max-width: 100% !important;
+    margin-top: 6.1% !important;
+}
+
+#modalProcurar.modal-dialog.modal-content {
+    max-width: 100% !important;
+}
+
+#tabelaProcurar {
+    width: 100%;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 15px;
+    font-family: Fira Code, cursive;
+}
+
+#tabelaProcurar th, td {
+    border: 2px solid #000;
+    text-align: center;
+}
+
+#tabelaProcurar tr {
+    border-left: 2px solid #000;
+}
+
+#tabelaProcurar tr input {
+    transform: translateX(50%);
+}
+
+#tabelaProcurar th {
+    background-color: #032b57;
+    color: #fff;
+}
+
+.-bgCian {
+    background: #258fff !important;
+}
+
+.-bgCianDark {
+    background-color: #0f549e !important;;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+.modal-title {
+    font-size: 25px;
+    font-family: Fira Code, cursive !important;
+    text-shadow: 1.5px 1.5px 1.5px #000 !important;
+    color: #3f84ce !important;
+
+}
+
+
+/* Eventos */
+
+
+/* Sucesso na operação (CRUD) */
+
+#h1SucessResult {
+    position: absolute;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Press Start 2P', cursive;
+    color: green;
+    width: 100%;
+    text-align: center;
+    animation-duration: 5s;
+    animation-name: resultCrud;
+    top: 30%;
+    left: -2%;
+    z-index: 99;
+    text-shadow: 2.5px 2.5px 2.5px #000;
+}
+
+#h1FailResult {
+    position: absolute;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    width: 100%;
+    text-align: center;
+    animation-duration: 5s;
+    animation-name: resultCrud;
+    top: 30%;
+    left: -2%;
+    z-index: 99;
+    text-shadow: 2.5px 2.5px 2.5px #000;
+}
+
+  
+  @keyframes resultCrud {
+    from {
+      font-size: 200%;
+    }
+  
+    to {
+      font-size: 700%;
+    }
+  }
+
+
+  
+  
