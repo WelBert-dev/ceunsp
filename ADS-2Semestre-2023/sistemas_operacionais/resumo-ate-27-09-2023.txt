@@ -1,0 +1,60 @@
+- Comandos PowerShell:
+
+- Comandos Bash:
+    - $ ls: Lista todos os arquivos do diretório
+    - $ cat: Abre um arquivo
+    - $ vi: Abre o editor vi (lê-se viai) para editar/criar arquivos
+    - $ exit: Terminar a sessão, ou seja, a shell (mais ajuda digitando man sh ou man csh)
+    - $ passwd: Mudar a password do nosso utilizador (usuário logado)
+    - $ cd: Mudar de diretório atual, como por exemplo cd diretório, cd .., cd /
+    - $ chmod: Mudar a proteção de um arquivo ou diretório, como por exemplo chmod
+    - $ 777, parecido com o attrib do MS-DOS
+    - $ cp: Copia arquivos, como o copy do MS-DOS
+    - $ grep: Procura um arquivo por um padrão, sendo um filtro muito útil e usado, por
+    - $ exemplo um cat a.txt | grep ola (filtragens)
+    - $ mkdir: Cria uma diretório, vem de make directory”
+    - $ mv: Move ou renomeia arquivos ou diretórios
+    - $ pwd: Mostra-nos o caminho current normalizado
+    - $ rm: Apaga arquivos, vem de remove, e é semelhante ao comando del no MS-DOS
+    - $ rmdir: Apaga diretório, vem de remove directory
+    - $ useradd nome_usuario: cria novo usuário
+    - $ groupadd nome_grupo: cria grupo
+    - $ addgroup nome_do_usuario nome_grupo: coloca o usuario dentro do grupo
+    - $ usermod -aG nome_grupo nome_usuario
+    - $ gpasswd -d nome_usuario nome_grupo
+
+- Diferenças entre a execução do python e do c pelo terminal:
+    - Python é interpretada, então usa: 
+        $ python3 nome-do-programa
+    
+    - c é compilada, então usa: 
+        $ gcc -o nome-saida caminho-entrada
+
+- Administração de usuários e grupos: 
+
+    User  | GROUP | TODOS
+    W R X | W R X | W R X
+    4 2 1 | 4 2 1 | 4 2 1
+
+    - chmod 744 (User pode: TUDO | Group pode: Apenas Escrever | Todos pode: Apenas Escrever);
+
+- Definindo usuários em grupos:
+    - $ useradd nome_usuario: cria novo usuário
+    - $ groupadd nome_grupo: cria grupo
+    - $ addgroup nome_do_usuario nome_grupo: coloca o usuario dentro do grupo
+    - $ usermod -aG nome_grupo nome_usuario
+    - $ gpasswd -d nome_usuario nome_grupo
+
+- EXERCICIO DE TREINO: (27/09/2023)
+
+Dentro da sua pasta de sistemas operacionais criem um pasta com o nome resumo
+Dentro dessa pasta façam um arquivo olá mundo em python e um olá mundo em
+linguagem c
+Executem os dois arquivos e confirme que o funcionou
+Deixe o arquivo do python como execução para o dono e somente leitura para
+grupo e todos. O Arquivo de linguagem C deixem como todas as permissões
+Crie um novo usuário chamado user1
+Adicione esse usuário ao grupo de administradores
+Ainda com o usuário user1 tente rodar o arquivo do python
+Rode o arquivo da linguagem C
+    

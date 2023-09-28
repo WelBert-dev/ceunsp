@@ -1,0 +1,38 @@
+- Boddage: segunda guerra mundial;
+- 300 Válvulas para funcionar;
+- 
+-----------------------------------------------------------------------------
+ANO: 1944
+
+- Colossus (Alan Turing);
+- Mark I (Harvard Aiken em Harvard);
+- ENIAC (William Mauchley);
+- Código de máquina (Configuarados manualmente);
+
+----------------------------------------------------------------------------
+
+- PRIMEIRA GERAÇÃO: 1945 até 1955
+- Cartão perfurado;
+ 
+----------------------------------------------------------------------------
+- SEGUDA GERAÇÃO: 1955 até 1965 (Transistores e Sistemas em Batch);
+
+- Main Frame
+- Apenas grandes organizações;
+- Escrevia em papel e depois cartão perfurados;
+----------------------------------------------------------------------------
+- TERÇEIRA GERAÇÃO: 1965 até 1980 (Circuitos integrados e multiprogramação);
+
+- IBM 360 
+
+----------------------------------------------------------------------------
+- QUARTA GERAÇÃO:  até  (Circuitos integrados em larga escala e computadores pessoais devido a diminuição);
+
+----------------------------------------------------------------------------
+- QUINTA GERAÇÃO: 1990 até Hoje (computadores móveis);
+- Nokia
+
+----------------------------------------------------------------------------
+Segunda aula: Comandos básicos bash no Ubuntu;
+
+
