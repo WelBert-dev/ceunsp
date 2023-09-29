@@ -1,0 +1,97 @@
+O que é GPT?
+
+- Quais ferramentas de I.A atuam (trabalham) na minha área?
+
+- O que "sobra"? O que em sua análise (Grupo) as I.A's NÃO desenvolvem? 
+    - Trabalhos que exigem criatividades;
+    - Ela não entende de humor, ou piadas...
+
+
+- Cadeias de Markov (Modelo mais simples):
+
+"Eu gosto de comer maçãs"
+"Ela gosta de jogar tênis"
+"Ele prefere ler livros"
+
+Tokens:
+
+1. Eu 
+2. gosto
+3. de
+4. comer
+5. maçãs
+6. Ela
+7. gosta
+8. jogar
+9. tênis
+10. Ele
+11. prefere
+12. ler
+13. livros
+
+- Possíveis transições e suas probabilidades: (Memória de 1 palavra)
+
+- Isso é o tal "modelo"
+- Cada linha dessas de probabilidades são os tais "parâmetros"
+- No GPT-4 são 170 Trilhões de linhas;
+
+- "Eu": gosto (100%)
+- "gosto": de (100%)
+- "de": comer (50%), ou jogar (50%) 
+- "comer": maçãs (100%)
+- "maçãs": Eu (100%)
+
+- "Ela": gosta (100%)
+- "gosta": de (100%)
+- "de": jogar, ler
+- "jogar": tênis (100%)
+- "tênis": Ela (100%)
+
+- "Ele": prefere (100%)
+- "prefere": ler (100%)
+- "ler": livros (100%)
+- "livros": Ele (100%)
+
+
+- Possíveis transições e suas probabilidades: (Memória de 2 palavras)
+
+"Eu gosto de comer maçãs"
+"Ela gosta de jogar tênis"
+"Ele prefere ler livros"
+
+- Isso é o tal "modelo"
+
+- "Eu gosto": de (100%)
+- "gosto de": comer (100%)
+- "de comer": maçãs (100%) <- Aqui a diferença aparecendo
+- "comer maçãs": Eu (100%)
+
+- "Ela gosta": de (100%)
+- "gosta de": jogar (100%)
+- "de jogar": tênis (100%)  
+- "jogar tênis": Ela (100%)
+
+- "Ele prefere": ler (100%)
+- "prefere ler": livros (100%)
+- "ler livros": Ele (100%)
+
+
+- Possíveis transições e suas probabilidades: (Memória de 3 palavras)
+
+- Isso é o tal "modelo"
+
+"Eu gosto de comer maçãs"
+"Ela gosta de jogar tênis"
+"Ele prefere ler livros"
+
+
+- "Eu gosto de": comer (100%)
+- "gosto de comer": maçãs (100%)
+- "de comer maçãs": Eu (100%)
+
+- "Ela gosta de": jogar (100%)
+- "gosta de jogar": tênis (100%)
+- "de jogar tênis": Ela (100%)  
+
+- "Ele prefere ler": livros (100%)
+- "prefere ler livros": Ele (100%)
