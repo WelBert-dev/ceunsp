@@ -95,3 +95,23 @@ Tokens:
 
 - "Ele prefere ler": livros (100%)
 - "prefere ler livros": Ele (100%)
+
+
+---------------------------------------------------------------------------------
+BÔNUS DAS POSSIBILIDADES COM I.A DE IMAGEM:
+
+- Real-ESRGAN: Inteligência Artificial OPEN SOURCE para otimizar Imagens;
+- A entrada dela é imagem, logo, devemos fragmentar os frames dos vídeos com FFMPEG;
+- Após fragmentar, executamos o ESRGAN para cada um dos frames, o processo é demorado;
+- Após finalizado, re-montamos o vídeo concatenando as imagens e o áudio com FFMPEG;
+- Um vídeo de 3 minutos em 240p demorou 50 minutos para otimizar em 1080p (Full HD);
+- Lembrando que ela não faz milagres, então não adiciona detalhes e sim aumenta a escala;
+
+- Processo todo automatizado no google colab:
+https://colab.research.google.com/github/yuvraj108c/4k-video-upscaler-colab/blob/main/4k_Video_Upscaler_Colab_(Real_ESRGAN).ipynb
+
+
+- 1o - Devemos baixar o vídeo e depois upar ele no colab ou google drive;
+- 2o - Carregamos o vídeo no link de cima;
+- 3o - Executamos em ordem os scripts python;
+- 4o - Fim, temos o vídeo remasterizado;
