@@ -1,0 +1,65 @@
+Boa tarde,
+Resolvemos sair um pouco do "convencional" que provavelmente serão os comandos básicos de navegações e manipulações de arquivos ou diretórios (Dir, cd, Copy, mkdir, e rmdir) do PowerShell (Windows) ou também os equivalentes (ls, cd, cp, mkdir, rmdir, cat..) do Unix-Like (Ubuntu), e desenvolvemos alternativas um pouco mais intermediárias, porém sem fugir do escopo abordado até o presente momento!
+
+- Turma do 2 Semestre de "Análise e Desenvolvimento de Sistemas" no CEUNSP - Salto SP
+
+- Grupo: 15
+
+- Integrantes:
+      - 71 VINÍCIUS CELLANE ALVES 32769326;
+      - 72 WELLISON DA CRUZ BERTELLI 33482004;
+      - 73 YURI FECCHIO LIMA RGM 32789602;
+      - 74 YURI MIGUEL DOS SANTOS SILVA 32665971;
+      - 75 BRENO BATISTA NOGUEIRA 35818867
+
+- Obs: Eu Wellison Bertelli, estudo constantemente e intensamente a 3 anos e estou em busca de oportunidades para atuar na área (Estágios, Trainee's, ou outros tipos de contratos) e eu adoraria multiplicar com vocês no CEUNSP!
+
+- Mais informações sobre mim: https://wellisonbertelli.com.br/
+- Bíblia do Java: https://bibleofjava.wellisonbertelli.com.br/
+
+
+- Questões de nível intermediário sem fugir do escopo abordado até este momento:
+
+1) De acordo com os pontos a seguir, quais são as abstrações de mais baixo nível, estando apenas acima do S.O, que permitem interagir com o computador (Humano-computador), INDEPENDENTEMENTE do Sistema Operacional?
+
+I - Por meio de teclado e mouse.
+II - Utilizando a GUI (Graphical User Interface).
+III - Utilizando o touchscreen.
+IV - Utilizando o shell.
+V - Abrindo janelas no Windows ou GNU/Linux.
+
+Assinale a alternativa CORRETA:
+
+a. I e V.
+b. IV e V.
+c. II e IV.
+d. I, III e IV.
+e. Nenhuma das Alternativas.
+
+
+- EXPLICAÇÃO:
+
+Alternativa "C" - Explicação mais detalhada sobre as camadas:
+
+      I - Por meio de teclado e mouse; - Camada de mais alto nível pois está literalmente na mão do usuário, errada pois a alternativa se trata das abstrações mais baixo nível;
+      
+      III - Mesma camada que o teclado e mouse, porém para o Android, errada também pelo mesmo motivo de cima;
+      
+      V - Já adiciona uma camada a mais sendo uma intermediária, porém ela está em cima do GUI, errada também pelo mesmo motivo de cima, queremos "estando apenas acima do S.O";
+      
+      II e IV - Estão na mesma camada, apenas em cima do S.O, CORRETA;
+      
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Aonde ficam os programas de usuário (Desconsiderando DAEMONS do sistema) instalados via shell bash pelos USUÁRIOS REGULARES (Sem permissões root) com o comando/programa gerenciador de pacotes `apt install` ou `apt-get install` no Ubuntu?
+
+a. No caminho "~/Downloads".
+b. No caminho "/home/usuario/Downloads".
+c. No caminho "/usr/bin".
+d. No caminho "/apt/Downloads".
+e. Nenhuma das alternativas pois são programas executáveis não arquivos;
+
+
+- EXPLICAÇÃO:
+
+Alternativa "C" - Pois as convenções Unix-Like definem que neste diretório é aonde ficam os programas de usuários regulares sem permissões root, pois ele é livre para todos usuários do sistema e nele ficam os programas que não são de uso administrativos e nem programas daemon de sistema.
