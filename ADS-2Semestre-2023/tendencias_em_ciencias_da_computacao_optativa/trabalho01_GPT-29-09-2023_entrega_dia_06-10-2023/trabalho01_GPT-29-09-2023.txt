@@ -1,3 +1,13 @@
+- Procurando pelo cálculo matematico mais dificil (Riemann Hypothesis) encontrei um 
+dev Lean que fez uma lib para esse problema, github do cara: 
+https://github.com/bhgomes
+
+- Entrando no projeto dele (Crypto moedas) como contribuinte interessado, 
+Após cadastro simples com formulario de trampo fui redirecionado para:
+https://airtable.com/appErMBd3EsP6p5IZ/shrqOfR30YfKmr5gJ
+
+----------------------------------------------------------------------------------------
+
 O que é GPT?
 
 - Quais ferramentas de I.A atuam (trabalham) na minha área?
@@ -7,13 +17,17 @@ O que é GPT?
     - Ela não entende de humor, ou piadas...
 
 
-- Cadeias de Markov (Modelo mais simples):
+- Cadeias de Markov (Modelo mais simples): 
+Base para os corretores ortográficos do teclado;
+Problema: Como só considera a palavra anterior perde o sentido facilmente se sair clicando;
+Porisso deve-se considerar TODA a sequência anterior, para manter sentido nas próximas;
+O ponto acima é o tal contexto, ou seja, a palavra do meio tem diferentes significados a depender das anteriores;
 
 "Eu gosto de comer maçãs"
 "Ela gosta de jogar tênis"
 "Ele prefere ler livros"
 
-Tokens:
+Tokens: ou N-GRAM 
 
 1. Eu 
 2. gosto
@@ -29,13 +43,13 @@ Tokens:
 12. ler
 13. livros
 
-- Possíveis transições e suas probabilidades: (Memória de 1 palavra)
+- Possíveis transições e suas probabilidades: (Memória de 1 palavra anterior)
 
 - Isso é o tal "modelo"
 - Cada linha dessas de probabilidades são os tais "parâmetros"
 - No GPT-4 são 170 Trilhões de linhas;
 
-- "Eu": gosto (100%)
+- "Eu": gosto (100%) 
 - "gosto": de (100%)
 - "de": comer (50%), ou jogar (50%) 
 - "comer": maçãs (100%)
@@ -53,7 +67,7 @@ Tokens:
 - "livros": Ele (100%)
 
 
-- Possíveis transições e suas probabilidades: (Memória de 2 palavras)
+- Possíveis transições e suas probabilidades: (Memória de 2 palavras anteriores)
 
 "Eu gosto de comer maçãs"
 "Ela gosta de jogar tênis"
@@ -76,7 +90,7 @@ Tokens:
 - "ler livros": Ele (100%)
 
 
-- Possíveis transições e suas probabilidades: (Memória de 3 palavras)
+- Possíveis transições e suas probabilidades: (Memória de 3 palavras anteriores)
 
 - Isso é o tal "modelo"
 
