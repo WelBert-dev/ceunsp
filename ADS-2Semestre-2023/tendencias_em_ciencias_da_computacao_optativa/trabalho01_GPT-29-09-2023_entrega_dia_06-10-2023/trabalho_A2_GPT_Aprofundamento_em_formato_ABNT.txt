@@ -1,0 +1,26 @@
+TRABALHO A2
+Entrega: 20/10
+
+1 documento feito por nós;
+1 documento feito pelo chat GPT, pedindo para reescrever e aprimorar o texto que escrevemos sem alterar conteúdo.
+
+OBS: em torno de 3 páginas; fonte arial 12 com espaçamento 1,5.
+
+*Instruções:
+
+1° Um texto explicando conceitualmente IA e GPT;
+
+2° Explicando tecnicamente o GPT;
+
+3° Algumas ferramentas de IA e GPT 
+- função
+- aplicação
+
+4° O que o GPT faz e não faz
+(com base na função e aplicação)
+
+No texto devemos:
+- Argumentar: apresentar a ideia;
+- Evidenciar: mostrar que a ideia realmente existe;
+- Sustentar: explicar a partir do ponto de vista de alguém (alguma empresa, etc.)
+- Contrapor: mostrar as contradições do que estamos apresentando.
