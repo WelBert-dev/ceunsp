@@ -36,6 +36,23 @@ mais especificamente deve-se entender:
     - Como fazer boas perguntas para obter boas respostas: A primeira camada é uma I.A treinada com perguntas;
 
 
+- Como uma I.A generativa funciona (Cadeias de Markov que é o "pai" dessas Generativas mais modernas):
+
+    Dado uma sequência de palavras, olhando para a palavra atual final, qual é a próxima palavra
+    mais provável a aparecer? de acordo com o resultado o modelo "cospe" essa palavra e faz a 
+    mesma análise novamente, porém considerando agora essa palavra "cuspida" como sendo a 
+    palavra atual final, e o ciclo vai se repetindo até atingir o limite de parâmetro do modelo.
+
+    O limite de parâmetro do modelo é a quantidade de tokens (N-Grams) ou também palavras, que 
+    esse modelo consegue "memorizar" dado a sequência completa, ou seja, quantas palavras anteriores
+    ele consegue levar em consideração na hora de realizar a probabilidade do conjunto completo.
+    
+    N-Grams, ou tokens, não são apenas "Palavras" simples, mas sim o que o modelo aprendeu durante
+    o treinamento, isso implica que, o modelo não entende o que é a palavra, mas sim o que ela 
+    significa (transmite) nessa mensagem, isso é o "padrão" que é aprendido. Na prática, isso 
+    está intrinsecamente ligado ao contexto (Quem são os vizinhos dessa palavra?). 
+
+    
 2° Explicando tecnicamente o GPT;
 
 3° Algumas ferramentas de IA e GPT 
