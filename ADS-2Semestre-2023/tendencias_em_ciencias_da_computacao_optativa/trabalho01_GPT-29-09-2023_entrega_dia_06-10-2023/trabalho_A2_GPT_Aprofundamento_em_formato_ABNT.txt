@@ -10,6 +10,32 @@ OBS: em torno de 3 páginas; fonte arial 12 com espaçamento 1,5.
 
 1° Um texto explicando conceitualmente IA e GPT;
 
+Inteligência Artificial é uma área de estudos bem ampla na área da Tecnologia da Informação,
+na prática, é uma amalgama de técnicas de análise e estatísticas matematicas aplicadas em vários conjuntos de dados,
+quanto mais dados melhor.
+
+Porisso apesar de ser uma área estudada a bastante tempo, desde os primórdios da Computação, só este ano entrou de
+vez no hype, pois por conta de sua natureza de necessitar possuir uma grande massa de dados para treinamento com
+eles, para analisar os padrões e etc, isso só foi possível depois do BOOM da Internet, que possibilitou uma 
+grande coleta de dados ao longo dos anos pelas Big Techs.
+
+Para cada problema existe uma função matemática mais apropriada, porisso, quanto maior o conhecimento sobre 
+elas melhor. Isso ocorre devido aos tipos de dados em análise, pois eles podem ser quantitativos, qualitativos
+e por isso vão existir diferentes tipos de funções matematicas para tratar esses dados.
+
+Por tanto, para obter um melhor aproveitamento do GPT é preciso entender como ele funciona por debaixo dos panos,
+mais especificamente deve-se entender:
+    - Como uma I.A generativa funciona (Cadeias de Markov que é o "pai" dessas Generativas mais modernas);
+    - Como foi o treinamento do modelo: Grande maior parte dos dados são em inglês devido a qualidade de 
+    artigos científicos em inglês ser superior (Pelomenos quando o assunto é tecnologia) e a maior parte da WWW 
+    é em inglês (80%);
+    - O que é o tal "contexto" no contexto de Inteligência Artificial?
+    - Similaridade entre palavras por conta do ponto acima (Ex: Banana tem similaridade com maçã);
+    - Semântida (Significado) das palavras, também por conta do ponto acima (É dado de acordo com os vizinhos);
+    - Graças a esses mecânismos o GPT consegue resumir textos por exemplo...
+    - Como fazer boas perguntas para obter boas respostas: A primeira camada é uma I.A treinada com perguntas;
+
+
 2° Explicando tecnicamente o GPT;
 
 3° Algumas ferramentas de IA e GPT 
