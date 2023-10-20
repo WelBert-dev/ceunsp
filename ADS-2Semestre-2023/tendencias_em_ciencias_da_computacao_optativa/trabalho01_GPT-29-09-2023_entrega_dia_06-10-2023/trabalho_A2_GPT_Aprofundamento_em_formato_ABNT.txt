@@ -52,12 +52,24 @@ mais especificamente deve-se entender:
     significa (transmite) nessa mensagem, isso é o "padrão" que é aprendido. Na prática, isso 
     está intrinsecamente ligado ao contexto (Quem são os vizinhos dessa palavra?). 
 
-    
+
 2° Explicando tecnicamente o GPT;
 
 3° Algumas ferramentas de IA e GPT 
 - função
 - aplicação
+
+Algumas I.A's interessantes:
+
+- Real-ESRGAN para otimizar imagens (Macete possibilita aplicar em Vídeos);
+- Criador de Mapa Mental com I.A (Roadmap): X Mind Copilot
+- Resumir Stream Ao Vivo com I.A: tldv.io
+- Encontrar qualquer artigo: Scispace 
+- Conversar com livros ou documentos PDF: chatPDF 
+- Criar apresentações estilo Power Point: Gamma
+- Humanizar textos: Quillbot 
+- Resumir Videos: Aizzy AI
+- Converter textos em vídeos: Runwayml
 
 4° O que o GPT faz e não faz
 (com base na função e aplicação)
