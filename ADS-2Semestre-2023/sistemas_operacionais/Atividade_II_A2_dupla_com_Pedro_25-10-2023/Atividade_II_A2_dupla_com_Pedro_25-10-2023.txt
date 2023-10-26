@@ -1,0 +1,72 @@
+1 – O que é um sistema operacional? E quais as duas funções essencialmente realizadas por ele (0,5)
+
+- Gerenciamento de recursos de Hardware;
+- Fornecer uma Interface (Abstração) de comunicação Homen-Maquina;
+
+------------------------------------------------------------------------------------------------
+2 – Dado um arquivo com o nome arquivoteste.txt que não possui nenhuma permissão. Escreva os dois comandos que podem ser digitados no terminal para que a permissão se torne igual a -rwx--xr-x. Escreva os comandos completos. (0,5)
+
+- chmod 715 ./arquivoteste.txt
+- chmod u=rwx,g=x,o=rx ./arquivoteste.txt
+
+------------------------------------------------------------------------------------------------
+3 – Dado dois arquivos com os nomes soma.py e soma.c, quais comandos são necessários para executar esses arquivos no terminal. (0,5)
+
+- chmod 777 ./soma.py
+- python3 ./soma.py
+
+- gcc -o soma soma.c; chmod 777 soma
+- ./soma
+
+------------------------------------------------------------------------------------------------
+4 – Se você está logado em um usuário que não tem permissão de root, quais comandos são necessários para: (0,5)
+	Criar um usuário com o nome user21
+	Alterar o password desse usário
+	Criar um grupo de nome admin
+	Adicionar esse usuário ao grupo criado
+
+- sudo adduser user21
+- sudo passwd user21
+- sudo addgroup admin
+- sudo usermod -aG admin user21
+
+------------------------------------------------------------------------------------------------
+5 – Escreva um script em shell bash para criar 10 pastas com o nome seguindo a seguinte nomenclatura. (1,0)
+	Pasta1_20231025
+	Pasta2_20231025 e assim por diante.
+	
+	- O script deve verificar se a pasta já existe – se sim log será: pasta <nomedapasta> já existe se não o log deve ser: criando pasta <nomedapasta>;
+	- A cada passo o script deve fornecer mensagens de log para deixar claro aos usuários quais itens foram realizados;
+	- As mensagens de cada passo devem ser salvas em um arquivo denominado log.txt;
+	- Escreva o procedimento para executar o seu script passando a data 20231025 como argumento;
+	
+#!/bin/bash
+
+# Data fornecida como argumento
+data=$1
+
+# Verifica se a data foi fornecida como argumento
+if [ -z "$data" ]; then
+    echo "Erro: Forneça a data como argumento (exemplo: $0 20231025)"
+    exit 1
+fi
+
+# Cria o arquivo de log
+echo "Criando arquivo de log..."
+log="log.txt"
+touch "$log"
+
+# Loop para criar as pastas
+for i in {1..10}; do
+    nome_pasta="Pasta${i}_${data}"
+    
+    if [ -d "$nome_pasta" ]; then
+        echo "Pasta $nome_pasta já existe" | tee -a "$log"
+    else
+        mkdir "$nome_pasta"
+        echo "Criando pasta $nome_pasta" | tee -a "$log"
+    fi
+done
+
+echo "Operação concluída. Verifique o arquivo de log $log para mais detalhes."
+
