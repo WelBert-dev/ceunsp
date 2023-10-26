@@ -82,6 +82,56 @@ Dutch, Flemish	1.1%	1.1%	1.3%	1.3%	1.4%	1.4%	1.3%	1.2%	0.9%	0.6%	0.5%	1.2%	1.7%
     para a cultura Americana, como por exemplo, se perguntar para o GPT "Quem foi o inventor do Avião" a resposta dela 
     NÃO será o Santos Dumont que aprendemos nas escolas do Brasil, e sim os irmãos Wilbur e Orville Wright.
 
+    <Imagem da Interação com o GPT sobre o GPT encorar-se no contexto Americano>
+
+_Eu: Quem inventou o avião?
+
+_GPT: O avião foi inventado pelos irmãos Wilbur e Orville Wright. Eles são creditados como os pioneiros na concepção e construção do primeiro avião controlado e motorizado com sucesso. Em 17 de dezembro de 1903, em Kitty Hawk, na Carolina do Norte, os Wright realizaram o primeiro voo motorizado bem-sucedido da história, com Orville pilotando o Flyer por 12 segundos. Seu trabalho revolucionou o transporte aéreo e desempenhou um papel fundamental no desenvolvimento da aviação moderna.
+
+_Eu: mas e o santos dumont?
+
+_GPT: Sim, o brasileiro Alberto Santos-Dumont também é amplamente reconhecido por suas contribuições significativas para o desenvolvimento da aviação. Ele foi um pioneiro na construção de dirigíveis e aeronaves mais leves que o ar, bem como de aviões mais pesados que o ar. Santos-Dumont voou com sucesso o 14-Bis em 23 de outubro de 1906 em Paris, França, em um dos primeiros voos públicos controlados de um avião. Este evento é muitas vezes considerado o primeiro voo público de um avião.
+
+Portanto, enquanto os irmãos Wright são geralmente creditados com o primeiro voo motorizado mais pesado que o ar, Santos-Dumont desempenhou um papel fundamental no desenvolvimento da aviação e é uma figura importante na história da aviação. A contribuição de Santos-Dumont é particularmente notável na Europa e é reconhecida como um marco importante na história da aviação.
+
+_Eu: Mas afinal, quem deve ser considerado como inventor do avião? 
+
+_GPT: A questão de quem deve ser considerado o inventor do avião é um tópico de debate e controvérsia há muitos anos. Os irmãos Wright e Alberto Santos-Dumont são dois dos nomes mais proeminentes associados à invenção do avião, e ambos fizeram contribuições notáveis ​​para o desenvolvimento da aviação.
+
+Os irmãos Wright são geralmente creditados com o primeiro voo motorizado controlado e mais pesado que o ar, que ocorreu em 17 de dezembro de 1903. Eles demonstraram a capacidade de controlar um avião em voo, o que é essencial para a aviação moderna.
+
+Alberto Santos-Dumont, por sua vez, realizou voos públicos bem-sucedidos de aeronaves mais leves que o ar e aviões em uma data próxima, como o 14-Bis em 1906, contribuindo significativamente para o desenvolvimento da aviação na Europa.
+
+A determinação de quem deve ser considerado o "inventor" do avião pode depender de como se define a invenção do avião. Os irmãos Wright demonstraram o voo controlado, enquanto Santos-Dumont demonstrou um voo público bem-sucedido em um avião. O reconhecimento dessas contribuições pode variar de acordo com a perspectiva cultural e geográfica.
+
+Em última análise, a história da aviação é enriquecida pela contribuição de diversos pioneiros em todo o mundo, e tanto os Wright quanto Santos-Dumont são figuras importantes nesse desenvolvimento. Portanto, é justo reconhecer ambos como notáveis inventores e pioneiros da aviação.
+
+_Eu: Como pode dois eventos distantes geograficamente ocorrerem em tempos bem aproximados? Nesta época estavam ocorrendo algum marco histórico que podem ter contribuído para tais feitos?
+
+_GPT: Os eventos relacionados à invenção do avião por parte dos irmãos Wright nos Estados Unidos e por Santos-Dumont na França ocorreram em datas próximas, mas não necessariamente simultaneamente. Há algumas razões para isso:
+
+    - Avanços tecnológicos paralelos: Em todo o mundo, vários inventores estavam trabalhando no desenvolvimento de aeronaves durante o final do século XIX e início do século XX. Isso incluía o estudo de aerodinâmica, motores aeronáuticos, materiais leves e técnicas de voo. Os avanços tecnológicos em diferentes partes do mundo contribuíram para o desenvolvimento de aeronaves mais pesadas que o ar.
+
+    - Conhecimento compartilhado: As descobertas e avanços na área da aviação eram frequentemente compartilhados internacionalmente por meio de publicações técnicas e conferências. Muitos pioneiros da aviação estavam cientes do trabalho uns dos outros, o que pode ter influenciado o progresso paralelo.
+
+    - Pressão da competição: A busca pela invenção do avião foi uma corrida internacional naquela época. O prêmio de construir o primeiro avião bem-sucedido era muito cobiçado, o que levou a um esforço intensificado em várias partes do mundo para alcançar esse objetivo.
+
+Não houve um único marco histórico específico que tenha causado esses desenvolvimentos próximos no tempo. Em vez disso, foi uma combinação de fatores, incluindo o conhecimento científico acumulado, a disponibilidade de tecnologia, a concorrência entre inventores e os avanços tecnológicos gerais da época que contribuíram para essas realizações.
+
+O início do século XX foi uma época de grande empolgação e inovação na aviação, com muitos experimentos acontecendo simultaneamente em várias partes do mundo. Os irmãos Wright e Santos-Dumont são apenas dois dos muitos pioneiros que desempenharam papéis importantes na história da aviação.
+
+_Eu: Algumas dessas pessoas envolvidas, os irmãos Wright ou o Santos-Dumont comentaram sobre os feitos uns dos outros nesta época? Ou alguém fez alguma referência para com o outro relacionado a saber que o outro estava desenvolvendo o avião também?
+
+_GPT: Sim, houve algumas referências e conhecimento mútuo entre os irmãos Wright e Santos-Dumont na época em que ambos estavam trabalhando no desenvolvimento da aviação. No entanto, as opiniões e as interações entre eles variaram.
+
+Os irmãos Wright, que eram dos Estados Unidos, eram conhecidos por manter grande sigilo sobre seus experimentos. Eles não divulgavam muitos detalhes sobre seu trabalho até que tivessem alcançado sucesso significativo. Como resultado, eles não compartilharam muito publicamente suas descobertas com outros pioneiros da aviação.
+
+Alberto Santos-Dumont, por outro lado, era uma figura mais pública em seu trabalho de aviação. Ele estava baseado na França e fez voos públicos que foram amplamente documentados e testemunhados por observadores. Há evidências de que ele estava ciente do trabalho dos irmãos Wright, mas não ficou claro o quanto ele sabia sobre os detalhes específicos de suas realizações.
+
+Em 1906, Santos-Dumont publicou uma carta no jornal francês Le Globe, na qual ele reconheceu os esforços dos irmãos Wright e expressou respeito por seus experimentos. No entanto, ele também levantou questões sobre a falta de detalhes técnicos disponíveis sobre os voos dos irmãos Wright. Essa carta reflete a consciência de Santos-Dumont sobre o trabalho dos Wright e seu desejo de mais informações.
+
+Em resumo, embora tenha havido conhecimento mútuo e, em alguns casos, reconhecimento mútuo entre os irmãos Wright e Santos-Dumont, as interações e as opiniões variaram, e ambos continuaram a trabalhar em seus próprios projetos de aviação independentemente.
+
 
 2° Explicando tecnicamente o GPT;
 
