@@ -46,33 +46,35 @@ else
 }
    
 }
+
 void forward() {
+  digitalWrite(INT1,HIGH);
+  digitalWrite(INT2,HIGH);
+  digitalWrite(INT3,LOW);
+  digitalWrite(INT4,LOW); 
+}
+
+void backward() {
+  digitalWrite(INT1,LOW);
+  digitalWrite(INT2,LOW);
+  digitalWrite(INT3,HIGH);
+  digitalWrite(INT4,HIGH);
+}
+
+void left() {
   digitalWrite(INT1,LOW);
   digitalWrite(INT2,HIGH);
   digitalWrite(INT3,HIGH);
-  digitalWrite(INT4,LOW);
+  digitalWrite(INT4,LOW);  
 }
-      
-void backward() {
+
+void right() {
   digitalWrite(INT1,HIGH);
   digitalWrite(INT2,LOW);
   digitalWrite(INT3,LOW);
   digitalWrite(INT4,HIGH);
 }
-      
-void left() {
-  digitalWrite(INT1,HIGH);
-  digitalWrite(INT2,LOW);
-  digitalWrite(INT3,HIGH);
-  digitalWrite(INT4,LOW);    
-}
-      
-void right() {
-  digitalWrite(INT1,LOW);
-  digitalWrite(INT2,HIGH);
-  digitalWrite(INT3,LOW);
-  digitalWrite(INT4,HIGH);  
-}
+
       
 void Stop() {
   digitalWrite(INT1,LOW);
