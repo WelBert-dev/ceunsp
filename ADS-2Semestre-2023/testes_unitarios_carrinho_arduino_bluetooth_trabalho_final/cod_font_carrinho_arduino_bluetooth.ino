@@ -95,6 +95,12 @@ void loop() {
       switch ((char) command) {
         case 't': // Execute All Test
           run_all_unit_test();
+
+          // Limpa as variáveis internas de controle do ArduinoUnit, 
+          // para conseguirmos executar quantas vezes desejarmos os mesmos 
+          // testes unitários executados anteriormente, 
+          // método presente na versão mais recente dos últimos commits da lib no github:
+          Test::resetDoneTests(); 
           break;
         default:
           stop();
